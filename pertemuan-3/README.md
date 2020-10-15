@@ -27,7 +27,7 @@ Mirip dengan gl.LINES, ***gl.LINE_LOOP*** mengambil titik-titik yang terdapat di
 ***gl.TRIANGLE_FAN*** mengambil konsep *fan* atau kipas dalam penggambaran bidang. Alih-alih menggunakan titik yang berbeda untuk menggambar bidang yang lengkap, ***gl.TRIANGLE_FAN*** menggunakan titik awal sebagai pusat, sama seperti sebuah kipas yang memiliki 1 titik pusat dan menghasilkan banyak segitiga dari titik pusat tersebut.
 
 #### Perbedaan Gl.TRIANGLE_STRIP dan Gl.TRIANGLE_FAN
-![Perbedaan Gambar Gl.TRIANGLE_STRIP dan Gl.TRIANGLE_FAN](img/Perbedaan gl.TRIANGLE_STRIP dan gl.TRIANGLE_FAN.png)
+![Perbedaan Gambar Gl.TRIANGLE_STRIP dan Gl.TRIANGLE_FAN](img/Perbedaan%20gl.TRIANGLE_STRIP%20dan%20gl.TRIANGLE_FAN.png)
 
 ### gl.TRIANGLES
 ***gl.TRIANGLES***, sesuai dengan namanya, adalah konsep gambar primitif yang diperuntukkan untuk membuat segitiga. Seperti yang kita tahu, segitiga terbuat dari 3 titik yang berbeda dan saling tersambung oleh garis. Oleh karena itu, penerapan konsep ini membutuhkan 3 masukan titik untuk digabungkan satu sama lain dan membuat bidang datar berupa segitiga.
@@ -39,11 +39,11 @@ Selain penggambaran menggunakan konsep primitif, pertemuan kali ini juga membaha
 Keluaran(*output*) di bawah ini merupakan urutan dari penggambaran yang paling sederhana hingga penggambaran yang saya coba sendiri(Pyramid):
 
 ![Gambar Gl.POINTS](img/gl.POINTS.png)
-![Gambar Gl.LINES, Gl.LINE_LOOP, dan Gl.LINE_STRIP](img/gl.LINES, gl.LINE_LOOP, and gl.LINE_STRIP.png)
+![Gambar Gl.LINES, Gl.LINE_LOOP, dan Gl.LINE_STRIP](img/gl.LINES,%20gl.LINE_LOOP,%20and%20gl.LINE_STRIP.png)
 ![Gambar Gl.TRIANGLE_STRIP](img/gl.TRIANGLE_STRIP.png)
 ![Gambar Gl.TRIANGLE_FAN](img/gl.TRIANGLE_FAN.png)
 ![Gambar Gl.TRIANGLES](img/gl.TRIANGLES.png)
-![Gambar Gl.TRIANGLES with Gradient](img/gl.TRIANGLES with Gradient.png)
+![Gambar Gl.TRIANGLES with Gradient](img/gl.TRIANGLES%20with%20Gradient.png)
 ![Gambar Eksperimental Pyramid](img/Pyramid.png)
 
 Hasil akhir kode *Javascript* dapat dilihat [di sini](main.js) dan dapat ditampilkan menggunakan kode html [di sini](index.html)
