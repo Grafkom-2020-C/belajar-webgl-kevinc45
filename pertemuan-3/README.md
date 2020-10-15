@@ -24,7 +24,7 @@ Mirip dengan gl.LINES, **gl.LINE_LOOP** mengambil titik-titik yang terdapat di a
 **gl.TRIANGLE_STRIP** merupakan konsep gambar primitif yang dapat kita gunakan untuk membuat bidang. Berbeda dengan gl.LINES, gl.LINE_LOOP, dan gl.LINE_STRIP, **gl.TRIANGLE_STRIP** sudah termasuk dengan pewarnaan di bidang(*face*) yang dibuat.
 
 ### gl.TRIANGLE_FAN
-**gl.TRIANGLE_FAN** mengambil konsep *fan* atau kipas dalam penggambaran bidang. Alih-alih menggunakan titik yang berbeda untuk menggambar bidang yang lengkap, ***gl.TRIANGLE_FAN*** menggunakan titik awal sebagai pusat, sama seperti sebuah kipas yang memiliki 1 titik pusat dan menghasilkan banyak segitiga dari titik pusat tersebut.
+**gl.TRIANGLE_FAN** mengambil konsep *fan* atau kipas dalam penggambaran bidang. Alih-alih menggunakan titik yang berbeda untuk menggambar bidang yang lengkap, **gl.TRIANGLE_FAN** menggunakan titik awal sebagai pusat, sama seperti sebuah kipas yang memiliki 1 titik pusat dan menghasilkan banyak segitiga dari titik pusat tersebut.
 
 #### Perbedaan Gl.TRIANGLE_STRIP dan Gl.TRIANGLE_FAN:
 ![Perbedaan Gambar Gl.TRIANGLE_STRIP dan Gl.TRIANGLE_FAN](img/Perbedaan%20gl.TRIANGLE_STRIP%20dan%20gl.TRIANGLE_FAN.png)
