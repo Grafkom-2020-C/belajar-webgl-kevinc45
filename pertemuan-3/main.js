@@ -5,8 +5,8 @@ function main() {
     var vertices = [
         0.0, 0.5,       //Titik A
         0.5, -0.5,      //Titik B
-        -0.5, -0.5      //Titik C
-        0.0, 0.5,       //Titik A
+        -0.5, -0.5,     //Titik C
+        0.0, 0.5        //Titik A
     ];
     
     var vertexBuffer = gl.createBuffer();
